@@ -2,6 +2,7 @@ export interface Todo {
   id: string;
   title: string;
   priority: 'low' | 'medium' | 'high';
-  dueDate: string;
+  dueDate?: string;
   completed: boolean;
+  createdAt: string;
 }
